@@ -1,0 +1,36 @@
+{
+  "name": "jcsa",
+  "version": "0.1.0",
+  "private": true,
+  "main": "server.js",
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "2.1.8",
+    "bcrypt": "3.0.5",
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.4",
+    "express": "4.16.3",
+    "jsonwebtoken": "^7.4.2",
+    "mysql": "^2.14.1",
+    "mysql2": "^1.6.1",
+    "sequelize": "^4.38.0",
+    "nodemon": "^1.18.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "dev": "nodemon server.js"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
